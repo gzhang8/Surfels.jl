@@ -1,0 +1,8 @@
+* Surfels.jl
+
+0 label means not inited
+-1 means not to be updated any more
+
+** color
+
+color is stored as 32 bit value, as [r, g, b, None]

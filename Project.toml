@@ -1,0 +1,17 @@
+name = "Surfels"
+uuid = "073c7976-b61c-11e9-2ac6-079b7b9ce1d3"
+version = "0.1.0"
+
+[deps]
+CameraModel = "523612d1-fdf1-4d73-bc59-cd8571f64031"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+GLFW = "f7f18e0c-5ee9-5ccd-a5bf-e8befd85ed98"
+GlHelper = "dc6272d3-508a-4d9d-901b-546521f003e1"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+ModernGL = "66fc600b-dfda-50eb-8b99-91cfa97b1301"
+Pangolin = "f90618ca-2674-4cd0-b380-84338b120a1c"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
+SurfelsLib_jll = "63138847-3b8b-53b7-bc56-9d476e6e0bd2"
+
