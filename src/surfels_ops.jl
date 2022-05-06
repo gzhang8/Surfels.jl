@@ -597,7 +597,8 @@ function render(
     timestamp::Int64,
     timedelta::Int64,
     program,
-    frame_buffer::GLFrameBuffer,
+    frame_buffer::GLFrameBuffer;
+    test_in_view::Bool=false
 )
     in_view_count = 0
     # bind(frame_buffer)
@@ -617,7 +618,7 @@ function render(
 
     # get index map
     for gl_surfels_data in surfel_data_collections
-        if (!isempty(gl_surfels_data.bbox_corners)) && (!bbox_in_view(gl_surfels_data, Tcw, frame_buffer.cam))
+        if test_in_view && (!isempty(gl_surfels_data.bbox_corners)) && (!bbox_in_view(gl_surfels_data, Tcw, frame_buffer.cam))
             # @show "not in view"
             continue
             # else
